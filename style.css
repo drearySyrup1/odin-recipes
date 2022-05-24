@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
 * {
     margin: 0;
 }
@@ -7,6 +9,7 @@ body {
     line-height: 2;
     max-width: 50%;
     margin: auto;
+    font-family: 'Roboto', sans-serif;
 }
 
 @media (max-width:629px) {
@@ -26,6 +29,7 @@ img {
 h1, h2 {
     background-color: black;
     color: white;
+    padding-left: 20px;
 }
 
 a {
